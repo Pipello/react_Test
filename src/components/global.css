@@ -1,0 +1,66 @@
+.min-vh-100{
+    min-height: 100vh;
+}
+
+.min-vw-100{
+    min-width: 100vw;
+}
+
+.ft-5{
+    font-size: 5em;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.top-1{
+    margin-top: 6.18vh;
+}
+
+.m-1{
+    margin: 7vh;
+}
+
+.mw-50{
+    min-width: 50%;
+}
+
+.form-control1{
+    border: none;
+    background: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color:white;
+    vertical-align: center;
+    transition: 300ms ease;
+}
+
+.form-control1::placeholder{
+    color: rgb(202, 202, 202);
+}
+
+.form-control1:focus{
+    outline: none;
+    background-image: url('./components/searchico.png');
+    background-size: 28px 28px;
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    box-shadow: 10px 6px 31px -6px black;
+    background-color: white;
+    color: rgb(85, 85, 85);
+}
+
+.form-control1::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}

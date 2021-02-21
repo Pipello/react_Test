@@ -6,24 +6,3 @@ html{
     color:white;
 }
 
-.min-vh-100{
-    min-height: 100vh;
-}
-
-.min-vw-100{
-    min-width: 100vw;
-}
-
-.ft-5{
-    font-size: 5em;
-}
-
-.d-flex{
-    border: 3px solid black;
-    display:flex;
-    margin-top: 16.18vh;
-}
-
-.justify-content-center{
-    justify-content: center;
-}

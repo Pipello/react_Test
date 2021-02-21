@@ -8,7 +8,7 @@
 #cover-title{
    text-align: center;
    display: inline;
-   animation: cursorAnim infinite 1s linear;
+   /*animation: cursorAnim infinite 1s linear;*/
    padding-right: 5px;
    padding-left: 5px;
 }
@@ -27,4 +27,8 @@
    to{
       border-right: 2px solid transparent;
    }
- }
+}
+
+#search-bar{
+
+}
